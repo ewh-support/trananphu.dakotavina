@@ -1,0 +1,80 @@
+.dg-container{
+	width: 480px;
+	height: 180px;
+	position: relative;
+    margin: 5px auto;
+}
+.dg-wrapper{
+	width: 200px;
+	height: 180px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 200px;
+	-moz-perspective: 200px;
+	-o-perspective: 200px;
+	-ms-perspective: 200px;
+	perspective: 200px;
+}
+.dg-wrapper a{
+	width: 200px;
+	height: 180px;
+	display: block;
+	position: absolute;
+	background: transparent url(../images/bg-show.png) no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.dg-wrapper a:hover{box-shadow: 0px 10px 20px rgba(0,0,0,0.6);}
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	padding: 1px 0px 0px 1px;
+    max-width: 200px; max-height: 150px;
+    margin-top: 25px;
+}
+.dg-wrapper a div{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+    display: none;
+    text-shadow: 1px 1px 1px #fff;
+}
+.dg-wrapper a .pr-name{ color: #DD0000; text-shadow: 1px 1px 1px #fff; font-size: 18px; bottom: 8px; position: absolute; text-align: center; width: 100%; display: block;}
+.dg-wrapper a div .pr-slogan{font-size: 10px; padding: 0 10px; bottom: -20px; }
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+.dg-container nav{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -29px;
+}
+.dg-container nav span{
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	background: transparent url(../images/arrows.html) no-repeat top left;
+}
+.dg-container nav span:hover{
+	opacity: 1;
+}
+.dg-container nav span.dg-next{
+	background-position: top right;
+	margin-left: 10px;
+}

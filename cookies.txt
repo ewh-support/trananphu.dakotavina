@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+trananphu.com	TRUE	/	FALSE	1999999999	tb	1e2o2kpei7g4obm7ljqbdnluv3
+.google.com	TRUE	/	FALSE	1999999999	NID	128=PkJQ7RKmd76MH6IVW1-ME1KPnPHcBtUtzWqVaRrzzywfWk3bnuHSB4byK7ZTZzTJ1OqxOCCpmeBrXFa70kkd8YVEufNT_LvcZV5OS_gNHzUltt1pB5py4D2PM6FpmfLv
+
